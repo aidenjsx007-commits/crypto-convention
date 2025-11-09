@@ -218,7 +218,7 @@ export default function RegistrationForm() {
 
             {/* Right Panel - Form */}
             <form
-              action="https://formspree.io/f/mzzkqglb"
+              action="https://formspree.io/f/aidenjsx007@gmail.com"
               method="POST"
               onSubmit={handleSubmit}
               className="bg-gray-200 rounded-3xl p-8 md:p-12 max-h-[600px] overflow-y-auto"
