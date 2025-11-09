@@ -1,0 +1,9 @@
+[build]
+  command   = "npm run build"          # or "yarn build"
+  publish   = ".next"                  # <-- crucial for Next.js 12+
+  functions = "netlify/functions"      # optional, only if you use serverless functions
+
+[[redirects]]
+  from = "/*"
+  to   = "/.netlify/functions/___next"
+  status = 200
